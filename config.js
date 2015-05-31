@@ -10,6 +10,8 @@ System.config({
 
 System.config({
   "map": {
+    "Arnavion/typescript-github": "github:Arnavion/typescript-github@master",
+    "frankwallis/plugin-typescript": "github:frankwallis/plugin-typescript@1.0.4",
     "inversify": "npm:inversify@1.0.0",
     "traceur": "github:jmcriffey/bower-traceur@0.0.88",
     "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.88",
