@@ -1,0 +1,27 @@
+{
+	"name": "typescript",
+	"version": "0.20150523.0+711886e09994eda5bafa9383d92954242fc342c5",
+	"description": "Somewhat regularly-built snapshots of https://github.com/Microsoft/TypeScript",
+	"keywords": ["TypeScript"],
+	"homepage": "https://github.com/Arnavion/typescript-github",
+	"licenses": [{
+		"type": "Apache License 2.0",
+		"url": "https://github.com/Microsoft/TypeScript/blob/master/LICENSE.txt"
+	}],
+	"maintainers": [{
+		"name": "Arnav Singh",
+		"email": "arnavion@gmail.com"
+	}],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Arnavion/typescript-github"
+	},
+	"main": "./bin/typescript.js",
+	"bin": {
+		"tsc": "./bin/tsc",
+		"tsserver": "./bin/tsserver"
+	},
+	"engines": {
+		"node": ">=0.8.0"
+	}
+}

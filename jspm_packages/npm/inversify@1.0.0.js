@@ -1,0 +1,1 @@
+module.exports = require("npm:inversify@1.0.0/dist/inversify");

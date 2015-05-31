@@ -1,0 +1,1 @@
+export * from "github:frankwallis/plugin-typescript@1.0.4/lib/plugin";
