@@ -10,8 +10,8 @@ export class FooBar implements MFooBar.IFooBar {
         console.log('foobar');
     }
 
-    constructor(IFoo : MFooBar.IFoo, IBar : MFooBar.IBar) {
-        this.foo = IFoo;
-        this.bar = IBar;
+    constructor(foo : MFooBar.IFoo, bar : MFooBar.IBar) {
+        this.foo = foo;
+        this.bar = bar;
     }
 }

@@ -4,11 +4,15 @@
 import {Foo} from './Foo';
 import {Bar} from './Bar';
 import {FooBar} from './FooBar';
+import {FooStringProvider} from './FooStringProvider'
+import {BarStringProvider} from './BarStringProvider'
 
 var MFooBar = {
     Foo : Foo,
     Bar : Bar,
-    FooBar: FooBar
+    FooBar: FooBar,
+    FooStringProvider : FooStringProvider,
+    BarStringProvider : BarStringProvider,
 };
 
 export = MFooBar;

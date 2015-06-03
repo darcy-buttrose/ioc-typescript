@@ -4,8 +4,8 @@
 ///<reference path="./FooBar.d.ts"/>
 export class Bar implements MFooBar.IBar {
     private _message;
-    constructor(message:string) {
-        this._message = message;
+    constructor(barMsgProvider:MFooBar.IStringProvider) {
+        this._message = barMsgProvider.getString();
     }
     public log() : void {
         console.log(this._message);

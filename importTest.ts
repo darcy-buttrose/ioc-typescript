@@ -1,17 +1,11 @@
 ///<reference path="./typings/Systemjs.d.ts"/>
 ///<reference path="./FooBar.d.ts"/>
-/*
-import {Bar} from './Bar';
-import {IBar} from './IBar';
-var b : IBar = new Bar();
-*/
+import m = require('./MFooBar');
 
-System.import('./MFooBar.ts!').then((m) => {
-    var b : MFooBar.Bar = new m.Bar('first');
-    var f : MFooBar.Foo = new m.Foo('second');
+    var b : MFooBar.Bar = new m.Bar(new m.BarStringProvider());
+    var f : MFooBar.Foo = new m.Foo(new m.FooStringProvider());
     var fb : MFooBar.FooBar = new m.FooBar(f,b);
 
     fb.foo.log();
     fb.bar.log();
     fb.log();
-});
