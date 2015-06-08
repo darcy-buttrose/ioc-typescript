@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h1>hello</h1>
+<script src="./jspm_packages/github/ModuleLoader/es6-module-loader@ts-0.17/dist/es6-module-loader-dev.src.js"></script>
+<script src="./jspm_packages/github/systemjs/systemjs@0.17.1/dist/system.src.js"></script>
+<script src="config.js"></script>
+<script>
+    System.transpiler = 'typescript';
+    System.paths.typescript = './jspm_packages/github/Microsoft/TypeScript@master/bin/typescript.js';
+</script>
+<script>
+    System.import('ts/systemTest').then(function(m){
+       var p = new m.Person('Peter');
+        console.log(p.Name);
+    });
+</script>
+</body>
+</html>

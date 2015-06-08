@@ -3,8 +3,10 @@
     "directories": {},
     "dependencies": {
       "Arnavion/typescript-github": "github:Arnavion/typescript-github@master",
-      "frankwallis/plugin-typescript": "github:frankwallis/plugin-typescript@1.0.4",
-      "inversify": "npm:inversify@^1.0.0"
+      "Microsoft/TypeScript": "github:Microsoft/TypeScript@master",
+      "ModuleLoader/es6-module-loader": "github:ModuleLoader/es6-module-loader@0.17",
+      "inversify": "npm:inversify@^1.0.0",
+      "systemjs/systemjs": "github:systemjs/systemjs@^0.17.1"
     },
     "devDependencies": {
       "traceur": "github:jmcriffey/bower-traceur@0.0.88",
