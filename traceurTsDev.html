@@ -14,9 +14,11 @@
     System.paths.typescript = './jspm_packages/github/Microsoft/TypeScript@master/bin/typescript.js';
 </script>
 <script>
-    System.import('ts/systemTest').then(function(m){
-       var p = new m.Person('Peter');
-        console.log(p.Name);
+    System.import('ts/MFooBar').then(function(m){
+       var f = new m.FooBar(new m.Foo(new m.FooStringProvider()),new m.Bar(new m.BarStringProvider()));
+        f.log();
+        f.foo.log();
+        f.bar.log();
     });
 </script>
 </body>

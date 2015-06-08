@@ -1,7 +1,7 @@
 /**
  * Created by Darcy on 30/05/2015.
  */
-///<reference path="./typings/inversify/inversify.d.ts"/>
+///<reference path="../typings/inversify/inversify.d.ts"/>
 ///<reference path="./FooBar.d.ts"/>
 
 import inversify = require('npm:inversify@1.0.0/source/inversify');

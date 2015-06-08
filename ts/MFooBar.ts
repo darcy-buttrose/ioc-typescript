@@ -1,18 +1,8 @@
 /**
  * Created by Darcy on 31/05/2015.
  */
-import {Foo} from './Foo';
-import {Bar} from './Bar';
-import {FooBar} from './FooBar';
-import {FooStringProvider} from './FooStringProvider'
-import {BarStringProvider} from './BarStringProvider'
-
-var MFooBar = {
-    Foo : Foo,
-    Bar : Bar,
-    FooBar: FooBar,
-    FooStringProvider : FooStringProvider,
-    BarStringProvider : BarStringProvider,
-};
-
-export = MFooBar;
+export {Foo} from './Foo.ts';
+export {Bar} from './Bar.ts';
+export {FooBar} from './FooBar.ts';
+export {FooStringProvider} from './FooStringProvider.ts'
+export {BarStringProvider} from './BarStringProvider.ts'
